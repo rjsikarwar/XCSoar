@@ -260,7 +260,7 @@ GlueMapWindow::OnMouseUp(PixelScalar x, PixelScalar y)
     break;
   }
 
-  if (arm_mapitem_list) {
+  if (click_time > 50 && arm_mapitem_list) {
     map_item_timer.Schedule(200);
     return true;
   }

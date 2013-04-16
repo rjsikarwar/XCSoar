@@ -28,6 +28,7 @@ Version 6.6 - not yet released
   - show more files in replay file picker (#2582)
   - clicking with Ctrl key pressed moves the simulator (#199)
   - vario bar at the right edge of the map
+  - reduce accidental triggering of map item list (#2680)
 * tasks
   - MAT tasks (#563)
   - custom symmetric quadrant (#2125)
